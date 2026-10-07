@@ -1,0 +1,12 @@
+.compassConfig{
+    position: fixed;
+    z-index: 99999;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);          
+    -webkit-backdrop-filter: blur(1px);
+}
